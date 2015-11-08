@@ -7,15 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184B9F121BEA2C2D0088416F /* Vectors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 184B9F101BEA2C2D0088416F /* Vectors.cpp */; };
+		184B9F151BEA86780088416F /* SignalGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 184B9F131BEA86780088416F /* SignalGenerator.cpp */; };
 		1860CC621BE544C4001015CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CC611BE544C4001015CF /* main.m */; };
 		1860CC651BE544C4001015CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CC641BE544C4001015CF /* AppDelegate.m */; };
-		1860CC681BE544C4001015CF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CC671BE544C4001015CF /* FirstViewController.m */; };
-		1860CC6B1BE544C4001015CF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CC6A1BE544C4001015CF /* SecondViewController.m */; };
 		1860CC6E1BE544C4001015CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860CC6C1BE544C4001015CF /* Main.storyboard */; };
 		1860CC701BE544C4001015CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1860CC6F1BE544C4001015CF /* Assets.xcassets */; };
 		1860CC731BE544C4001015CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860CC711BE544C4001015CF /* LaunchScreen.storyboard */; };
 		1860CC7E1BE544C4001015CF /* SoundAnalyserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CC7D1BE544C4001015CF /* SoundAnalyserTests.m */; };
 		1860CC891BE544C4001015CF /* SoundAnalyserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CC881BE544C4001015CF /* SoundAnalyserUITests.m */; };
+		1860CCA61BE553B1001015CF /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = 1860CCA31BE553B1001015CF /* Audio */; };
+		1860CCA81BE553B1001015CF /* Math in Resources */ = {isa = PBXBuildFile; fileRef = 1860CCA51BE553B1001015CF /* Math */; };
+		1860CCC51BE55E7B001015CF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCC41BE55E7B001015CF /* FirstViewController.m */; };
+		1860CCC81BE55E92001015CF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCC71BE55E92001015CF /* SecondViewController.m */; };
+		1860CCCB1BE55EAC001015CF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCCA1BE55EAC001015CF /* ThirdViewController.m */; };
+		1860CCD81BE565A5001015CF /* FftImplementations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCD01BE565A5001015CF /* FftImplementations.cpp */; };
+		1860CCD91BE565A5001015CF /* FftImplementations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCD01BE565A5001015CF /* FftImplementations.cpp */; };
+		1860CCDA1BE565A5001015CF /* FftImplementations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCD01BE565A5001015CF /* FftImplementations.cpp */; };
+		1860CCDB1BE565A5001015CF /* Filters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCD21BE565A5001015CF /* Filters.cpp */; };
+		1860CCDC1BE565A5001015CF /* Filters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCD21BE565A5001015CF /* Filters.cpp */; };
+		1860CCDD1BE565A5001015CF /* Filters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCD21BE565A5001015CF /* Filters.cpp */; };
+		1860CCDE1BE565A5001015CF /* ProcessSignal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCD41BE565A5001015CF /* ProcessSignal.cpp */; };
+		1860CCDF1BE565A5001015CF /* ProcessSignal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCD41BE565A5001015CF /* ProcessSignal.cpp */; };
+		1860CCE01BE565A5001015CF /* ProcessSignal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCD41BE565A5001015CF /* ProcessSignal.cpp */; };
+		1860CCE11BE565A5001015CF /* SignalDefinitions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCD61BE565A5001015CF /* SignalDefinitions.cpp */; };
+		1860CCE21BE565A5001015CF /* SignalDefinitions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCD61BE565A5001015CF /* SignalDefinitions.cpp */; };
+		1860CCE31BE565A5001015CF /* SignalDefinitions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCD61BE565A5001015CF /* SignalDefinitions.cpp */; };
+		1860CCE81BE565EE001015CF /* AudioUnitReceive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCE71BE565EE001015CF /* AudioUnitReceive.m */; };
+		1860CCE91BE565EE001015CF /* AudioUnitReceive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCE71BE565EE001015CF /* AudioUnitReceive.m */; };
+		1860CCEA1BE565EE001015CF /* AudioUnitReceive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCE71BE565EE001015CF /* AudioUnitReceive.m */; };
+		1860CCF21BE56617001015CF /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCED1BE56617001015CF /* JBBarChartView.m */; };
+		1860CCF31BE56617001015CF /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCED1BE56617001015CF /* JBBarChartView.m */; };
+		1860CCF41BE56617001015CF /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCED1BE56617001015CF /* JBBarChartView.m */; };
+		1860CCF51BE56617001015CF /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCEF1BE56617001015CF /* JBChartView.m */; };
+		1860CCF61BE56617001015CF /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCEF1BE56617001015CF /* JBChartView.m */; };
+		1860CCF71BE56617001015CF /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCEF1BE56617001015CF /* JBChartView.m */; };
+		1860CCF81BE56617001015CF /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCF11BE56617001015CF /* JBLineChartView.m */; };
+		1860CCF91BE56617001015CF /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCF11BE56617001015CF /* JBLineChartView.m */; };
+		1860CCFA1BE56617001015CF /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860CCF11BE56617001015CF /* JBLineChartView.m */; };
+		18DA68BF1BE91BA10046BA73 /* SignalModelling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DA68BD1BE91BA10046BA73 /* SignalModelling.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +66,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184B9F101BEA2C2D0088416F /* Vectors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vectors.cpp; path = Math/Vectors.cpp; sourceTree = "<group>"; };
+		184B9F111BEA2C2D0088416F /* Vectors.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Vectors.hpp; path = Math/Vectors.hpp; sourceTree = "<group>"; };
+		184B9F131BEA86780088416F /* SignalGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SignalGenerator.cpp; path = Math/SignalGenerator.cpp; sourceTree = "<group>"; };
+		184B9F141BEA86780088416F /* SignalGenerator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SignalGenerator.hpp; path = Math/SignalGenerator.hpp; sourceTree = "<group>"; };
 		1860CC5D1BE544C4001015CF /* SoundAnalyser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundAnalyser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1860CC611BE544C4001015CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1860CC631BE544C4001015CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1860CC641BE544C4001015CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1860CC661BE544C4001015CF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		1860CC671BE544C4001015CF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		1860CC691BE544C4001015CF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		1860CC6A1BE544C4001015CF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		1860CC6D1BE544C4001015CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1860CC6F1BE544C4001015CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1860CC721BE544C4001015CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +84,32 @@
 		1860CC841BE544C4001015CF /* SoundAnalyserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundAnalyserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1860CC881BE544C4001015CF /* SoundAnalyserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundAnalyserUITests.m; sourceTree = "<group>"; };
 		1860CC8A1BE544C4001015CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1860CCA31BE553B1001015CF /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Audio; path = /Users/apple/Documents/XcodeProjects/SoundAnalyser/SoundAnalyser/Audio; sourceTree = "<absolute>"; };
+		1860CCA51BE553B1001015CF /* Math */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Math; path = /Users/apple/Documents/XcodeProjects/SoundAnalyser/SoundAnalyser/Math; sourceTree = "<absolute>"; };
+		1860CCC31BE55E7B001015CF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = ViewFiles/FirstViewController.h; sourceTree = "<group>"; };
+		1860CCC41BE55E7B001015CF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = ViewFiles/FirstViewController.m; sourceTree = "<group>"; };
+		1860CCC61BE55E92001015CF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ViewFiles/SecondViewController.h; sourceTree = "<group>"; };
+		1860CCC71BE55E92001015CF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ViewFiles/SecondViewController.m; sourceTree = "<group>"; };
+		1860CCC91BE55EAC001015CF /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = ViewFiles/ThirdViewController.h; sourceTree = "<group>"; };
+		1860CCCA1BE55EAC001015CF /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = ViewFiles/ThirdViewController.m; sourceTree = "<group>"; };
+		1860CCD01BE565A5001015CF /* FftImplementations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FftImplementations.cpp; path = Math/FftImplementations.cpp; sourceTree = "<group>"; };
+		1860CCD11BE565A5001015CF /* FftImplementations.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FftImplementations.hpp; path = Math/FftImplementations.hpp; sourceTree = "<group>"; };
+		1860CCD21BE565A5001015CF /* Filters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Filters.cpp; path = Math/Filters.cpp; sourceTree = "<group>"; };
+		1860CCD31BE565A5001015CF /* Filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filters.h; path = Math/Filters.h; sourceTree = "<group>"; };
+		1860CCD41BE565A5001015CF /* ProcessSignal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProcessSignal.cpp; path = Math/ProcessSignal.cpp; sourceTree = "<group>"; };
+		1860CCD51BE565A5001015CF /* ProcessSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProcessSignal.h; path = Math/ProcessSignal.h; sourceTree = "<group>"; };
+		1860CCD61BE565A5001015CF /* SignalDefinitions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SignalDefinitions.cpp; path = Math/SignalDefinitions.cpp; sourceTree = "<group>"; };
+		1860CCD71BE565A5001015CF /* SignalDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignalDefinitions.h; path = Math/SignalDefinitions.h; sourceTree = "<group>"; };
+		1860CCE61BE565EE001015CF /* AudioUnitReceive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioUnitReceive.h; path = Audio/AudioUnitReceive.h; sourceTree = "<group>"; };
+		1860CCE71BE565EE001015CF /* AudioUnitReceive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioUnitReceive.m; path = Audio/AudioUnitReceive.m; sourceTree = "<group>"; };
+		1860CCEC1BE56617001015CF /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBBarChartView.h; path = ChartView/JBBarChartView.h; sourceTree = "<group>"; };
+		1860CCED1BE56617001015CF /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBBarChartView.m; path = ChartView/JBBarChartView.m; sourceTree = "<group>"; };
+		1860CCEE1BE56617001015CF /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBChartView.h; path = ChartView/JBChartView.h; sourceTree = "<group>"; };
+		1860CCEF1BE56617001015CF /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBChartView.m; path = ChartView/JBChartView.m; sourceTree = "<group>"; };
+		1860CCF01BE56617001015CF /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBLineChartView.h; path = ChartView/JBLineChartView.h; sourceTree = "<group>"; };
+		1860CCF11BE56617001015CF /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBLineChartView.m; path = ChartView/JBLineChartView.m; sourceTree = "<group>"; };
+		18DA68BD1BE91BA10046BA73 /* SignalModelling.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SignalModelling.cpp; path = Math/SignalModelling.cpp; sourceTree = "<group>"; };
+		18DA68BE1BE91BA10046BA73 /* SignalModelling.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SignalModelling.hpp; path = Math/SignalModelling.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +160,12 @@
 		1860CC5F1BE544C4001015CF /* SoundAnalyser */ = {
 			isa = PBXGroup;
 			children = (
+				1860CCE41BE565B3001015CF /* Math */,
+				1860CCFB1BE5663C001015CF /* ViewFiles */,
+				1860CCEB1BE565FE001015CF /* ChartView */,
+				1860CCE51BE565DA001015CF /* Audio */,
 				1860CC631BE544C4001015CF /* AppDelegate.h */,
 				1860CC641BE544C4001015CF /* AppDelegate.m */,
-				1860CC661BE544C4001015CF /* FirstViewController.h */,
-				1860CC671BE544C4001015CF /* FirstViewController.m */,
-				1860CC691BE544C4001015CF /* SecondViewController.h */,
-				1860CC6A1BE544C4001015CF /* SecondViewController.m */,
 				1860CC6C1BE544C4001015CF /* Main.storyboard */,
 				1860CC6F1BE544C4001015CF /* Assets.xcassets */,
 				1860CC711BE544C4001015CF /* LaunchScreen.storyboard */,
@@ -143,6 +199,62 @@
 				1860CC8A1BE544C4001015CF /* Info.plist */,
 			);
 			path = SoundAnalyserUITests;
+			sourceTree = "<group>";
+		};
+		1860CCE41BE565B3001015CF /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				1860CCD01BE565A5001015CF /* FftImplementations.cpp */,
+				1860CCD11BE565A5001015CF /* FftImplementations.hpp */,
+				1860CCD21BE565A5001015CF /* Filters.cpp */,
+				1860CCD31BE565A5001015CF /* Filters.h */,
+				1860CCD41BE565A5001015CF /* ProcessSignal.cpp */,
+				1860CCD51BE565A5001015CF /* ProcessSignal.h */,
+				1860CCD61BE565A5001015CF /* SignalDefinitions.cpp */,
+				1860CCD71BE565A5001015CF /* SignalDefinitions.h */,
+				18DA68BD1BE91BA10046BA73 /* SignalModelling.cpp */,
+				18DA68BE1BE91BA10046BA73 /* SignalModelling.hpp */,
+				184B9F101BEA2C2D0088416F /* Vectors.cpp */,
+				184B9F111BEA2C2D0088416F /* Vectors.hpp */,
+				184B9F131BEA86780088416F /* SignalGenerator.cpp */,
+				184B9F141BEA86780088416F /* SignalGenerator.hpp */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		1860CCE51BE565DA001015CF /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1860CCE61BE565EE001015CF /* AudioUnitReceive.h */,
+				1860CCE71BE565EE001015CF /* AudioUnitReceive.m */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		1860CCEB1BE565FE001015CF /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				1860CCEC1BE56617001015CF /* JBBarChartView.h */,
+				1860CCED1BE56617001015CF /* JBBarChartView.m */,
+				1860CCEE1BE56617001015CF /* JBChartView.h */,
+				1860CCEF1BE56617001015CF /* JBChartView.m */,
+				1860CCF01BE56617001015CF /* JBLineChartView.h */,
+				1860CCF11BE56617001015CF /* JBLineChartView.m */,
+			);
+			name = ChartView;
+			sourceTree = "<group>";
+		};
+		1860CCFB1BE5663C001015CF /* ViewFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1860CCC31BE55E7B001015CF /* FirstViewController.h */,
+				1860CCC41BE55E7B001015CF /* FirstViewController.m */,
+				1860CCC61BE55E92001015CF /* SecondViewController.h */,
+				1860CCC71BE55E92001015CF /* SecondViewController.m */,
+				1860CCC91BE55EAC001015CF /* ThirdViewController.h */,
+				1860CCCA1BE55EAC001015CF /* ThirdViewController.m */,
+			);
+			name = ViewFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +363,8 @@
 				1860CC731BE544C4001015CF /* LaunchScreen.storyboard in Resources */,
 				1860CC701BE544C4001015CF /* Assets.xcassets in Resources */,
 				1860CC6E1BE544C4001015CF /* Main.storyboard in Resources */,
+				1860CCA81BE553B1001015CF /* Math in Resources */,
+				1860CCA61BE553B1001015CF /* Audio in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +389,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1860CC6B1BE544C4001015CF /* SecondViewController.m in Sources */,
+				1860CCD81BE565A5001015CF /* FftImplementations.cpp in Sources */,
+				1860CCF81BE56617001015CF /* JBLineChartView.m in Sources */,
+				1860CCF51BE56617001015CF /* JBChartView.m in Sources */,
+				1860CCE11BE565A5001015CF /* SignalDefinitions.cpp in Sources */,
+				1860CCE81BE565EE001015CF /* AudioUnitReceive.m in Sources */,
+				1860CCC81BE55E92001015CF /* SecondViewController.m in Sources */,
+				1860CCF21BE56617001015CF /* JBBarChartView.m in Sources */,
+				184B9F121BEA2C2D0088416F /* Vectors.cpp in Sources */,
+				18DA68BF1BE91BA10046BA73 /* SignalModelling.cpp in Sources */,
+				1860CCCB1BE55EAC001015CF /* ThirdViewController.m in Sources */,
 				1860CC651BE544C4001015CF /* AppDelegate.m in Sources */,
-				1860CC681BE544C4001015CF /* FirstViewController.m in Sources */,
+				1860CCC51BE55E7B001015CF /* FirstViewController.m in Sources */,
+				1860CCDB1BE565A5001015CF /* Filters.cpp in Sources */,
 				1860CC621BE544C4001015CF /* main.m in Sources */,
+				1860CCDE1BE565A5001015CF /* ProcessSignal.cpp in Sources */,
+				184B9F151BEA86780088416F /* SignalGenerator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +412,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1860CCF31BE56617001015CF /* JBBarChartView.m in Sources */,
+				1860CCF91BE56617001015CF /* JBLineChartView.m in Sources */,
+				1860CCF61BE56617001015CF /* JBChartView.m in Sources */,
+				1860CCDC1BE565A5001015CF /* Filters.cpp in Sources */,
+				1860CCD91BE565A5001015CF /* FftImplementations.cpp in Sources */,
+				1860CCE91BE565EE001015CF /* AudioUnitReceive.m in Sources */,
 				1860CC7E1BE544C4001015CF /* SoundAnalyserTests.m in Sources */,
+				1860CCE21BE565A5001015CF /* SignalDefinitions.cpp in Sources */,
+				1860CCDF1BE565A5001015CF /* ProcessSignal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +428,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1860CCF41BE56617001015CF /* JBBarChartView.m in Sources */,
+				1860CCFA1BE56617001015CF /* JBLineChartView.m in Sources */,
+				1860CCF71BE56617001015CF /* JBChartView.m in Sources */,
+				1860CCDD1BE565A5001015CF /* Filters.cpp in Sources */,
+				1860CCDA1BE565A5001015CF /* FftImplementations.cpp in Sources */,
+				1860CCEA1BE565EE001015CF /* AudioUnitReceive.m in Sources */,
 				1860CC891BE544C4001015CF /* SoundAnalyserUITests.m in Sources */,
+				1860CCE31BE565A5001015CF /* SignalDefinitions.cpp in Sources */,
+				1860CCE01BE565A5001015CF /* ProcessSignal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +560,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SoundAnalyser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BL.SoundAnalyser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +572,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SoundAnalyser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BL.SoundAnalyser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +646,7 @@
 				1860CC8F1BE544C4001015CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1860CC901BE544C4001015CF /* Build configuration list for PBXNativeTarget "SoundAnalyserTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +655,7 @@
 				1860CC921BE544C4001015CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1860CC931BE544C4001015CF /* Build configuration list for PBXNativeTarget "SoundAnalyserUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +664,7 @@
 				1860CC951BE544C4001015CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
